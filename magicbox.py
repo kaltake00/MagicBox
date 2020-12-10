@@ -9,6 +9,9 @@ random.shuffle(kutije)
 random.shuffle(secondChance)
 igra = 0
 while igra < 10000000:
+    extralife = 0
+    cash = 0
+    drugihSansi = 0
     for i in range(len(kutije)):
         if kutije[i]== "Game Over":
             if extralife>0:
@@ -36,9 +39,7 @@ while igra < 10000000:
         elif kutije[i]== "Extra Life":
             print("Osvojio si extra zivot! Nakon Game Overa igra ce se nastaviti..")
             extralife += 1
-    extralife = 0
-    cash = 0
-    drugihSansi = 0
     print("###########\nBroj igre: ", igra,"\n###########")
     igra += 1
     time.sleep(10)
+    
