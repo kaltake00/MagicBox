@@ -2,9 +2,6 @@ import random
 import time
 kutije = [100, 20, 20, 5, 5, 5, 5, 5, "Extra Life", "Game Over","Game Over","Game Over"]
 secondChance = [5, 10 ,20, "Druga Prilika"]
-extralife = 0
-cash = 0
-drugihSansi = 0
 random.shuffle(kutije)
 random.shuffle(secondChance)
 igra = 0
